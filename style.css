@@ -1,0 +1,78 @@
+/* When I find a better way to do this i will */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* I actually hate that I have to do this */
+body {
+    margin: 0;
+    background: #E2E2E2;
+    max-width: 100%;
+}
+
+/* header css elements */
+#header  {
+    width: 100%;
+    background-color: #f24141;
+    height: 200px;
+    padding-top: 10px;
+}
+
+.header-content {
+    text-align: center;
+    color: #ffffff;
+}
+
+.bar-content {
+    display: inline-block;
+    color: #ffffff;
+    text-align: auto;
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.bar-content {
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+    border-style: none solid;
+}
+
+a.bar-content:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#options-bar {
+    display: inline-block;
+    width: 100%;
+}
+
+#transition {
+    width: 100%;
+    background: #E2E2E2;
+    background: linear-gradient(rgba(242, 65, 65, 1), rgba(242, 65, 65, 0.5), #E2E2E2);
+}
+
+#share-buttons img {
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+}
+
+.img-div {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.content-container {
+    display: table-cell;
+}
+
+.content-row {
+    width: 100%;
+    display: table;
+    border-spacing: 16px;
+}
