@@ -2,6 +2,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    vertical-align: middle;
 }
 
 /* I actually hate that I have to do this */
@@ -16,7 +17,7 @@ body {
     width: 100%;
     background-color: #f24141;
     height: 200px;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 .header-content {
@@ -69,10 +70,18 @@ a.bar-content:hover {
 
 .content-container {
     display: table-cell;
+    width: 30%;
 }
 
 .content-row {
     width: 100%;
     display: table;
-    border-spacing: 16px;
+}
+
+.content-div {
+    max-width: 200px;
+}
+
+.img-div, .content-div {
+    margin: auto;
 }
